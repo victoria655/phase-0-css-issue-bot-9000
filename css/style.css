@@ -1,23 +1,25 @@
 body {
-  background pink;
+
+  background-color: pink;
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3px; 
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background-color: #ccc;
   text-decoration: underline;
 }
